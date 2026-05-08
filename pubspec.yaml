@@ -1,0 +1,53 @@
+name: fine_dine
+description: Fine-Dine Restaurant Package Booking App
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.4
+  # firebase_storage: not needed - using image URLs instead
+
+  # State Management
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.5
+
+  # Routing
+  go_router: ^14.6.1
+
+  # Network / Images
+  cached_network_image: ^3.4.1
+  http: ^1.2.2
+
+  # Caching / Storage
+  shared_preferences: ^2.3.3
+  # flutter_secure_storage: removed for web compatibility
+
+  # UI
+  flutter_svg: ^2.0.10+1
+  intl: ^0.19.0
+  shimmer: ^3.0.0
+  flutter_rating_bar: ^4.0.1
+  table_calendar: ^3.1.2
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
